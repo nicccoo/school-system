@@ -1,0 +1,286 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TP_Final_DYADM_BD
+</name>
+</assembly>
+<members>
+<member name="T:TP_Final_DYADM_BD.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TP_Final_DYADM_BD.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TP_Final_DYADM_BD.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.AlumnosInsc">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.AlumnosInsc.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.AlumnosInsc.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.AlumnosInsc.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.AlumnosInscTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.AlumnosInscTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.AlumnosInscTableAdapters.TableAdapterManager.UpdateUpdatedRows(TP_Final_DYADM_BD.AlumnosInsc,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.AlumnosInscTableAdapters.TableAdapterManager.UpdateInsertedRows(TP_Final_DYADM_BD.AlumnosInsc,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.AlumnosInscTableAdapters.TableAdapterManager.UpdateDeletedRows(TP_Final_DYADM_BD.AlumnosInsc,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.AlumnosInscTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.AlumnosInscTableAdapters.TableAdapterManager.UpdateAll(TP_Final_DYADM_BD.AlumnosInsc)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.AlumnosInscTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.AlumnosInscTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.dtsTotAluInsc">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.dtsTotAluInsc.spTotAluInscDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.dtsTotAluInsc.spTotAluInscRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.dtsTotAluInsc.spTotAluInscRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.dtsTotAluInscTableAdapters.spTotAluInscTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.dtsTotAluInscTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.dtsTotAluInscTableAdapters.TableAdapterManager.UpdateUpdatedRows(TP_Final_DYADM_BD.dtsTotAluInsc,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.dtsTotAluInscTableAdapters.TableAdapterManager.UpdateInsertedRows(TP_Final_DYADM_BD.dtsTotAluInsc,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.dtsTotAluInscTableAdapters.TableAdapterManager.UpdateDeletedRows(TP_Final_DYADM_BD.dtsTotAluInsc,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.dtsTotAluInscTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.dtsTotAluInscTableAdapters.TableAdapterManager.UpdateAll(TP_Final_DYADM_BD.dtsTotAluInsc)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.dtsTotAluInscTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.dtsTotAluInscTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.PorcentajeAprobados">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.PorcentajeAprobados.TurnosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.PorcentajeAprobados.TurnosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.PorcentajeAprobados.TurnosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.PorcentajeAprobadosTableAdapters.TurnosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.PorcentajeAprobadosTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.PorcentajeAprobadosTableAdapters.TableAdapterManager.UpdateUpdatedRows(TP_Final_DYADM_BD.PorcentajeAprobados,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.PorcentajeAprobadosTableAdapters.TableAdapterManager.UpdateInsertedRows(TP_Final_DYADM_BD.PorcentajeAprobados,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.PorcentajeAprobadosTableAdapters.TableAdapterManager.UpdateDeletedRows(TP_Final_DYADM_BD.PorcentajeAprobados,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.PorcentajeAprobadosTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.PorcentajeAprobadosTableAdapters.TableAdapterManager.UpdateAll(TP_Final_DYADM_BD.PorcentajeAprobados)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.PorcentajeAprobadosTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.PorcentajeAprobadosTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.Reporte">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.Reporte.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.Reporte.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.Reporte.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.ReporteTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.ReporteTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.ReporteTableAdapters.TableAdapterManager.UpdateUpdatedRows(TP_Final_DYADM_BD.Reporte,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.ReporteTableAdapters.TableAdapterManager.UpdateInsertedRows(TP_Final_DYADM_BD.Reporte,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.ReporteTableAdapters.TableAdapterManager.UpdateDeletedRows(TP_Final_DYADM_BD.Reporte,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.ReporteTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TP_Final_DYADM_BD.ReporteTableAdapters.TableAdapterManager.UpdateAll(TP_Final_DYADM_BD.Reporte)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.ReporteTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TP_Final_DYADM_BD.ReporteTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
